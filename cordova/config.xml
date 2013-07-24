@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="co.mwater.clientapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>mWater</name>
+    <description>
+        mWater Client App
+    </description>
+    <author email="development@mwater.co" href="http://mwater.co">
+        Apache Cordova Team
+    </author>
+    <icon src="icon.png"/>
+    <access origin="*" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="loadingDialog" value="mWater, Loading..."/>
+    <preference name="disallowOverscroll" value="true"/>
+</widget>

@@ -9,7 +9,7 @@ Contexts have fixed members that have to be present.
 
 db: database (LocalDb, HybridDb or RemoteDb)
 imageManager: Simple or Cached Image manager
-camera: Camera that has a single function: takePicture(success, error). 
+camera: Camera that has a single function: getPicture(success, error). 
   success is called with url to be passed to imageManager.addImage(url, success, error)
   error: error function to be called with unexpected errors
   auth: see auth module
@@ -39,7 +39,7 @@ apiUrl = 'http://api.mwater.co/v3/'
 createBaseContext = ->
   # Fake camera # TODO use cordova where possible
   camera = {
-    takePicture: (success, error) ->
+    getPicture: (success, error) ->
       alert("On the Android app, this would take a picture")
   }
 

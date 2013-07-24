@@ -4,13 +4,13 @@
     "name": "Aquagenx 100 mL Presence / Absence Bag Test",
     "desc": "100 mL presence / absence test for E. coli",
     "code": "Aquagenx100PA",
-    "_rev": 4,
+    "_rev": 5,
     "created": {
         "on": "2013-07-17T14:03:49.869Z",
         "by": "admin"
     },
     "modified": {
-        "on": "2013-07-18T16:11:19.170Z",
+        "on": "2013-07-22T16:14:36.184Z",
         "by": "admin"
     },
     "user": "admin"

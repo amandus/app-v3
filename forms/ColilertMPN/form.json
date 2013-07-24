@@ -4,13 +4,13 @@
     "name": "Colilert MPN tube",
     "desc": "10 mL presence / absence test for E. coli and total coliform",
     "code": "ColilertMPN",
-    "_rev": 4,
+    "_rev": 5,
     "created": {
         "on": "2013-07-17T14:03:50.289Z",
         "by": "admin"
     },
     "modified": {
-        "on": "2013-07-18T16:11:20.274Z",
+        "on": "2013-07-22T16:14:37.306Z",
         "by": "admin"
     },
     "user": "admin"

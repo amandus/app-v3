@@ -50,7 +50,7 @@ module.exports = class ImagesQuestion extends Question
         @model.set(@id, images)
 
       , @ctx.error)
-    @ctx.camera.takePicture success, (err) ->
+    @ctx.camera.getPicture success, (err) ->
       alert("Failed to take picture")
 
   thumbnailClick: (ev) ->
