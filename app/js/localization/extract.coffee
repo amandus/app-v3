@@ -1,3 +1,5 @@
+# Extracts localizations from source code. Run with '../../' as parameters
+
 fs = require 'fs'
 glob = require 'glob'
 path = require 'path'
